@@ -1,0 +1,400 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100hv;
+    margin: auto;
+    border: 0%;
+}
+.titulo {
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    background-size: cover; /* Ajusta el tamaño del fondo */
+    background-position: center 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+    background-repeat: no-repeat;
+}
+.titulo > h1 {
+    font-size: 5vw;
+    font-size: 10vh;
+    max-width: 90%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+    color: rgb(207, 206, 206);
+    padding: 1%;
+    border-radius: 20px;
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el tamaño */
+}
+
+.descripcion {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 175, 175);
+}
+.descripcion > h2 {
+    font-size: 5vw;
+    font-size: 10vh;
+    max-width: 90%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+    color: rgb(207, 206, 206);
+    padding: 1%;
+    border-radius: 20px;
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el tamaño */
+}
+.descripcion > p {
+    font-size: 18px;
+    padding-bottom: 2%;
+}
+
+.principal {
+    padding: 5%;
+    background-color: black;
+}
+.boton1 {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 25px;
+}
+.boton1 > button > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.boton1 > button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    background-color: #9a9a9a;
+}
+
+.restaurantes {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudGV8ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.restaurantes > h3 {
+    font-size: 5vw;
+    font-size: 10vh;
+    max-width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+    color: rgb(207, 206, 206);
+    padding: 1%;
+    border-radius: 20px;
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el tamaño */
+}
+.restaurantes > p {
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    padding: 0.4;
+    width: 35%;
+    border-radius: 12%;
+    font-size: 18px;
+}
+
+.hoteles {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?cs=srgb&dl=pexels-chanwalrus-941861.jpg&fm=jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.hoteles > h3 {
+    font-size: 5vw;
+    font-size: 10vh;
+    max-width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+    color: rgb(207, 206, 206);
+    padding: 1%;
+    border-radius: 20px;
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el tamaño */
+}
+.hoteles > p {
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    padding: 0.4;
+    width: 22%;
+    border-radius: 12%;
+    font-size: 18px;
+}
+
+.plazoleta {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(https://wallpapers.com/images/hd/food-4k-1pf6px6ryqfjtnyr.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.plazoleta > h3 {
+    font-size: 5vw;
+    font-size: 10vh;
+    max-width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+    color: rgb(207, 206, 206);
+    padding: 1%;
+    border-radius: 20px;
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el tamaño */
+}
+.plazoleta > p {
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    padding: 0.4;
+    width: 40%;
+    border-radius: 12%;
+    font-size: 18px;
+}
+
+.historia {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: rgb(175, 175, 175);
+}
+.historia > h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 35px;
+    text-align: justify;
+}
+.historia > p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.seleccion{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 175, 175);
+}
+.seleccion > h2 {
+    font-size: 35px;
+}
+.res {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    padding: 2%;
+    text-align: center;
+}
+.res1 > button:hover {
+    background-color: #9a9a9a;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+.res1 > img:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow: 5px 10px 20px rgba(255, 255, 255, 0.6);
+}
+.res1 > p {
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.res1 > button > a{
+    text-decoration: none;
+    color: black;
+}
+.res1 > img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.seleccion2 {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 175, 175);
+}
+.seleccion2 > h2 {
+    font-size: 35px;
+}
+.hot {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    padding: 2%;
+    text-align: center;
+}
+.hot1 > img{
+    border-radius: 15px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.texto > p {
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    text-align: justify;
+}
+.texto > button > a{
+    text-decoration: none;
+    color: black;
+}
+.texto > button:hover {
+    background-color: #9a9a9a;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.seleccion3 {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 175, 175);
+}
+.seleccion3 > h2 {
+    font-size: 35px;
+}
+
+.plaz {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    text-align: center;
+    align-items: center;
+}
+.plaz1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre imágenes */
+    padding: 20px;
+    background-color: #000; /* Fondo oscuro para resaltar las luces */
+}
+
+.plaz1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Luz de fondo diferente para cada imagen */
+.img1 {
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.8); /* Rojo */
+}
+
+.img2 {
+    box-shadow: 0 0 30px 10px rgba(255, 165, 0, 0.8); /* Naranja */
+}
+
+.img3 {
+    box-shadow: 0 0 30px 10px rgba(255, 255, 0, 0.8); /* Amarillo */
+}
+
+.img4 {
+    box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.8); /* Verde */
+}
+
+.img5 {
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.8); /* Azul */
+}
+
+.img6 {
+    box-shadow: 0 0 30px 10px rgba(75, 0, 130, 0.8); /* Índigo */
+}
+
+.img7 {
+    box-shadow: 0 0 30px 10px rgba(238, 130, 238, 0.8); /* Violeta */
+}
+
+/* Efecto interactivo */
+.plaz1 img:hover {
+    transform: scale(1.1); /* Efecto de zoom */
+    box-shadow: 0 0 50px 15px rgba(255, 255, 255, 0.9); /* Luz blanca más intensa */
+}
+
+
+footer{
+    padding-top: 3%;
+    padding-bottom: 0%;
+    grid-template-rows: auto 1fr auto;
+    background-color: black;
+    color: rgb(175, 175, 175);
+}
+footer > a > p {
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+}
+footer > a > img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+footer .instagram{
+    padding-right: 7px;
+    align-items: center; 
+    display: inline-flex; 
+}
+footer .facebook{
+    padding-top: 7px;
+    align-items: center; 
+    display:inline-flex; 
+}
+footer .youtube{
+    vertical-align:top;
+    display: inline;
+}
+.boton {
+    text-align: center;
+}
+.redes {
+    padding-top: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+    justify-content: center;
+}
+.logo > p {
+    padding-bottom: 3%;
+}

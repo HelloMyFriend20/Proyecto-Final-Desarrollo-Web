@@ -1,0 +1,227 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100hv;
+    margin: auto;
+    border: 0%;
+}
+
+.titulo {
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2013/04/02/20/17/riu-99533_1280.jpg');
+    background-size: cover; /* Ajusta el tamaño del fondo */
+    background-position: center 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo > h1 {
+font-size: 5vw;
+font-size: 10vh;
+max-width: 90%;
+background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para mejor legibilidad */
+color: rgb(207, 206, 206);
+padding: 1%;
+border-radius: 20px;
+box-sizing: border-box; /* Asegura que el padding esté incluido en el tamaño */
+}
+
+.titulo2 {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    text-align: center;
+}
+.titulo2 > h2 {
+    font-size: 35px;
+    padding-bottom: 1%;
+}
+.titulo2 > p {
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    padding: 2%;
+    text-align: center;
+}
+.piscina > a > img{
+    border-radius: 5%;
+}
+.piscina > a > img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6);
+}
+.bolos > a > img{
+    border-radius: 5%;
+}
+.bolos > a > img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6);
+}
+.salajuegos > a > img{
+    border-radius: 5%;
+}
+.salajuegos > a > img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6);
+}
+
+.teatro > a > img{
+    border-radius: 5%;
+}
+.teatro > a > img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6);
+}
+.canchas > a > img{
+    border-radius: 5%;
+}
+.canchas > a > img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6);
+}
+.serviciosGeneral {
+    background-color: black;
+    color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.piscinaInfo {
+    padding: 2%;
+}
+.piscinaInfo > img {
+    border-radius: 2%;
+    width: 50vw;
+}
+
+.bolosInfo {
+    padding: 2%;
+}
+.bolosInfo > img {
+    border-radius: 2%;
+    width: 50vw;
+}
+
+.salonJuegosInfo {
+    padding: 2%;
+}
+.salonJuegosInfo > img {
+    border-radius: 2%;
+}
+
+.slider-frame {
+    width: 50vw; /* El ancho se adapta al contenedor */
+    max-width: 1280px; /* Tamaño máximo opcional */
+    /* height: 400px; */
+    max-height: 500px; /* Altura fija del slider */
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-frame ul {
+    display: flex;
+    animation: slide 12s infinite ease-in-out;
+    padding: 0;
+}
+
+.slider-frame li {
+    list-style: none;
+    flex-shrink: 0;
+    width: 100%; /* Cada imagen ocupa todo el ancho del slider */
+}
+
+.slider-frame img {
+    border-radius: 2%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+/* Animación del slider */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    95% { transform: translateX(-300%); }
+}
+
+.teatroInfo {
+    padding: 2%;
+}
+.teatroInfo > img {
+    border-radius: 2%;
+    width: 50vw;
+}
+
+.canchasDeportivasInfo {
+    padding: 2%;
+}
+.canchasDeportivasInfo > img {
+    border-radius: 2%;
+    width: 50vw;
+}
+
+
+.descripcion{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-template-rows: auto 1fr auto;
+    background-color: black;
+    color: rgb(175, 175, 175);
+}
+footer > a > p {
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+}
+footer > a > img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+footer .instagram{
+    padding-right: 7px;
+    align-items: center; 
+    display: inline-flex; 
+}
+footer .facebook{
+    padding-top: 7px;
+    align-items: center;
+    display:inline-flex; 
+}
+footer .youtube{
+    vertical-align:top;
+    display: inline;
+}
+.boton {
+    text-align: center;
+}
+.redes {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

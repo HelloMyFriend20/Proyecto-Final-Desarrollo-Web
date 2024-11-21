@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box; /* Incluye padding y borde dentro del tamaño total del elemento. */
+    margin: auto; /* Centra automáticamente los elementos en su contenedor, si es posible. */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Define una lista de fuentes predeterminadas para todo el documento. */
+}
+body {
+    background-color: black; /* Define un fondo negro para toda la página. */
+}
+
+html {
+    scroll-behavior: smooth; /* Habilita un desplazamiento suave al navegar a través de anclas. */
+}
+
+/* TITULO */
+
+header {
+    text-align: center; /* Centra el contenido dentro del header. */
+    padding: 25%; /* Añade un espacio alrededor del contenido. */
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_1280.jpg); /* Establece una imagen de fondo para el header. */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita. */
+    background-size: 100%; /* Ajusta la imagen para que ocupe todo el ancho del header. */
+}
+header > h1 {
+    color: white; /* Define el color del texto del título como blanco. */
+    font-size: 50px; /* Ajusta el tamaño de la fuente del título. */
+    background-color: rgb(0, 0, 0); /* Añade un fondo negro detrás del texto del título. */
+    border-radius: 30px; /* Redondea las esquinas del fondo del título. */
+    padding: 0.4%; /* Añade un pequeño espacio interno alrededor del título. */
+}
+
+.orden ul {
+    width: 90%; /* Define el ancho de la lista como el 90% del contenedor. */
+    display: flex; /* Utiliza flexbox para organizar los elementos. */
+    justify-content: center; /* Centra los elementos horizontalmente. */
+    align-items: center; /* Centra los elementos verticalmente. */
+    padding: 0; /* Elimina el padding por defecto de la lista. */
+    margin: 0 auto; /* Centra la lista dentro de su contenedor. */
+    list-style: none; /* Elimina los estilos predeterminados de la lista. */
+}
+
+.orden ul li {
+    position: relative; /* Define una posición relativa para permitir ajustes internos. */
+    width: 100%; /* Hace que cada elemento de la lista ocupe el 100% del ancho disponible. */
+}
+
+.orden a {
+    display: block; /* Hace que el enlace sea un bloque, ocupando todo el espacio disponible. */
+    padding: 1em 2em; /* Añade espacio interno arriba, abajo, izquierda y derecha. */
+    border: 1px solid rgb(162, 161, 161); /* Define un borde gris alrededor de los enlaces. */
+    background-color: #343434; /* Establece un fondo oscuro para los enlaces. */
+    text-decoration: none; /* Elimina el subrayado de los enlaces. */
+    color: rgb(255, 255, 255); /* Establece el color del texto en blanco. */
+    text-align: center; /* Centra el texto dentro del enlace. */
+}
+
+.principal {
+    padding: 5%; /* Añade espacio alrededor del contenido de esta sección. */
+    text-align: center; /* Centra el texto de esta sección. */
+    background-color: #343434; /* Establece un fondo oscuro para la sección. */
+}
+.principal .principal1 {
+    background-image: url(https://www.nestleprofessional-latam.com/sites/default/files/2022-10/Sobre%20nosotros%20banner_0.jpg); /* Define una imagen de fondo para el bloque. */
+    max-width: 80%; /* Establece el ancho máximo como el 80% del contenedor. */
+    padding-top: 10px; /* Añade espacio interno superior. */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita. */
+    background-position: center top 30%; /* Ajusta la posición de la imagen de fondo. */
+    background-color: #343434; /* Define un fondo oscuro como respaldo. */
+    height: 350px; /* Establece la altura fija del bloque. */
+}
+.principal .principal1 .principal2 {
+    margin-top: 20px; /* Añade espacio encima del bloque. */
+    padding: 10px; /* Añade espacio interno. */
+    width: 45%; /* Define el ancho del bloque como el 45% del contenedor. */
+    max-height: 90%; /* Limita la altura máxima al 90%. */
+    background-color: rgba(106, 154, 176, 0.5); /* Establece un fondo semitransparente. */
+    overflow: hidden; /* Oculta cualquier contenido que desborde el bloque. */
+}
+.principal .principal1 .principal2 > a {
+    color: black; /* Cambia el color del enlace a negro. */
+    text-decoration: none; /* Elimina el subrayado del enlace. */
+}
+
+/* El resto de las secciones se mantiene con los mismos nombres y estructura */
+
+.hotel {
+    padding: 5%;
+    text-align: center;
+    background-color: #343434;
+}
+.hotel .titulohotel{
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/02/20/17/riu-99533_1280.jpg);
+    max-width: 80%;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center top 30%;
+    background-color: #343434;
+    height: 350px;
+}
+.hotel .titulohotel .titulohotel1{
+    margin-top: 20px;
+    padding: 10px;
+    width: 45%;
+    background-color: rgba(106, 154, 176, 0.5);
+}
+.hotel .titulohotel .titulohotel1 > a{
+    color: black; /* Elige el color que prefieras */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+.servicios {
+    padding: 5%;
+    text-align: center;
+    background-color: #343434;
+}
+.servicios .serviciostitulo{
+    background-image: url(
+        https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionist-5975961_1280.jpg
+    );
+    max-width: 80%;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center top 30%;
+    background-color: #343434;
+    height: 350px;
+}
+.servicios .serviciostitulo .serviciostitulo1 > a{
+    color: black; /* Elige el color que prefieras */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+.servicios .serviciostitulo .serviciostitulo1{
+    margin-top: 20px;
+    padding: 10px;
+    width: 45%;
+    background-color: rgba(106, 154, 176, 0.5);
+}
+
+.restaurantes {
+    padding: 5%;
+    text-align: center;
+    background-color: #343434;
+}
+
+.restaurantes .restaurantestitulo{
+
+    background-image: url(https://www.semana.com/resizer/v2/CZ6HQQVYLJE4LI7WBR7OGJQ4J4.jpg?auth=0b641d473b85a4cd19788c71296c9f0b1c0b26c98acec50f764a88fd706f0bc9&smart=true&quality=75&width=1280&height=720);
+    width: 80%;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center top 30%;
+    background-color: #343434;
+    height: 350px;
+}
+
+.restaurantes .restaurantestitulo .restaurantestitulo1{
+    margin-top: 20px;
+    padding: 10px;
+    width: 45%;
+    background-color: rgba(106, 154, 176, 0.5);
+}
+.restaurantes .restaurantestitulo .restaurantestitulo1 > a{
+    color: black; /* Elige el color que prefieras */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+.afiliacion{
+    padding: 5%;
+    text-align: center;
+    background-color: #343434;
+}
+
+.afiliacion .afiliaciontitulo{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/23/10/24/cheques-2672195_1280.jpg);
+    max-width: 80%;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center top 30%;
+    background-color: #343434;
+    height: 350px;
+}
+
+.afiliacion .afiliaciontitulo .afiliaciontitulo1{
+    margin-top: 20px;
+    padding: 10px;
+    width: 45%;
+    background-color: rgba(106, 154, 176, 0.5);
+}
+.afiliacion .afiliaciontitulo .afiliaciontitulo1 > a{
+    color: black; /* Elige el color que prefieras */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+
+footer {
+    padding-top: 3%; /* Añade espacio en la parte superior del footer. */
+    padding-bottom: 0%; /* Elimina el espacio en la parte inferior. */
+    grid-template-rows: auto 1fr auto; /* Define una estructura de filas flexible para el footer. */
+    background-color: black; /* Establece un fondo negro para el footer. */
+    color: rgb(175, 175, 175); /* Define un color gris para el texto del footer. */
+}
+footer > a > p {
+    color: rgb(175, 175, 175); /* Aplica el color gris al texto de los enlaces del footer. */
+    font-size: 18px; /* Ajusta el tamaño de fuente del texto dentro del footer. */
+}
+footer > a > img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño de las imágenes al pasar el cursor. */
+    transition: transform 0.2s ease; /* Aplica una transición suave al cambio de tamaño. */
+}
+footer .instagram {
+    padding-right: 7px; /* Añade espacio a la derecha de este elemento. */
+    align-items: center; /* Alinea los elementos verticalmente al centro. */
+    display: inline-flex; /* Establece una disposición en línea con flexbox. */
+}
+footer .facebook {
+    padding-top: 7px; /* Añade espacio en la parte superior. */
+    align-items: center; /* Alinea los elementos verticalmente al centro. */
+    display: inline-flex; /* Establece una disposición en línea con flexbox. */
+}
+footer .youtube {
+    vertical-align: top; /* Alinea el elemento con la parte superior. */
+    display: inline; /* Define la disposición en línea del elemento. */
+}
+.boton {
+    text-align: center; /* Centra el contenido dentro del botón. */
+}
+.redes {
+    padding-top: 2%; /* Añade espacio en la parte superior de este bloque. */
+    justify-content: center; /* Centra el contenido horizontalmente. */
+    align-items: center; /* Alinea los elementos verticalmente al centro. */
+    text-align: center; /* Centra el texto dentro de este bloque. */
+}
+.logo {
+    text-align: center; /* Centra el texto de este bloque. */
+    justify-content: center; /* Centra los elementos internamente. */
+}
+.logo > p {
+    padding-bottom: 3%; /* Añade espacio debajo del texto dentro del bloque. */
+}

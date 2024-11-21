@@ -1,0 +1,153 @@
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Establece una fuente común que se ve bien en diferentes dispositivos */
+    width: 100hv; /* Ocupa todo el ancho de la pantalla */
+    margin: auto; /* Intenta centrar los elementos horizontalmente */
+    border: 0%; /* Elimina cualquier borde por defecto */
+}
+
+
+.titulo {
+    padding-top: 15%; /* Espacio en la parte superior */
+    padding-bottom: 15%; /* Espacio en la parte inferior */
+    text-align: center; /* Centra el contenido de texto */
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/02/20/17/riu-99533_1280.jpg); /* Imagen de fondo */
+    background-size: 100%; /* Escala la imagen para que cubra todo el ancho */
+    background-position: center 30%; /* Centra la imagen y ajusta la altura del foco */
+}
+
+.titulo > h1 {
+    font-size: 50px; /* Tamaño de fuente grande */
+    background-color: black; /* Fondo negro detrás del texto */
+    color: rgb(175, 175, 175); /* Texto gris claro */
+    padding: 0.4%; /* Espacio alrededor del texto */
+    border-radius: 20px; /* Bordes redondeados */
+    width: 20%; /* Ancho del contenedor del título */
+}
+
+
+.titulo2 {
+    padding-top: 5%; /* Espacio en la parte superior */
+    padding-left: 5%; /* Espacio a la izquierda */
+    padding-right: 5%; /* Espacio a la derecha */
+    background-color: black; /* Fondo negro */
+    color: rgb(175, 175, 175); /* Texto gris claro */
+    text-align: center; /* Centra el texto */
+}
+
+
+.titulo2 > h2 {
+    font-size: 35px; /* Tamaño de fuente mediano-grande */
+    padding-bottom: 1%; /* Espacio debajo del título */
+}
+
+.titulo2 > p {
+    font-size: 20px; /* Tamaño de fuente mediano */
+    padding-bottom: 2%; /* Espacio debajo del párrafo */
+}
+
+.hoteles {
+    display: flex; /* Organiza los elementos en una fila flexible */
+    justify-content: space-around; /* Espacia los elementos de manera uniforme */
+    flex-wrap: wrap; /* Permite que los elementos salten a una nueva línea si es necesario */
+    background-color: black; /* Fondo negro */
+    color: rgb(175, 175, 175); /* Texto gris claro */
+    padding: 2%; /* Espacio alrededor de los hoteles */
+    text-align: center; /* Centra el texto dentro de cada hotel */
+}
+
+
+.hotel1 > a > img{
+    border-radius: 5%; /* Bordes redondeados */
+}
+
+.hotel1 > a > img:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la imagen ligeramente al pasar el ratón */
+    transition: transform 0.2s ease; /* Suaviza la transición de escalado */
+}
+
+.hotelPrincipal {
+    background-color: black; /* Fondo negro */
+    color: rgb(175, 175, 175); /* Texto gris claro */
+    display: flex; /* Organiza los elementos en una fila flexible */
+    justify-content: space-around; /* Espacia los elementos de manera uniforme */
+    padding: 2%; /* Espacio alrededor del contenedor */
+}
+
+
+.hotelInfo {
+    padding: 2%; /* Espacio alrededor de la información del hotel */
+}
+
+.hotelInfo > img {
+    border-radius: 2%; /* Bordes ligeramente redondeados */
+    width: 50vw; /* Ancho de la imagen a la mitad de la vista del navegador */
+}
+
+.hotelInfo2 {
+    padding: 2%; /* Espacio alrededor de la información del hotel */
+    text-align: justify; /* Alinea el texto a ambos lados para mejor legibilidad */
+}
+
+.hotelInfo2 > button:hover {
+    background-color: #9a9a9a; /* Cambia el color del fondo al hacer hover */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+    transition: transform 0.5s ease; /* Suaviza el escalado */
+}
+
+.hotelInfo2 > button > a{
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 15px; /* Tamaño de fuente del enlace */
+    color: black; /* Color del texto del enlace */
+}
+
+.descripcion{
+    display: flex; /* Organiza los elementos en una fila flexible */
+    justify-content: space-around; /* Espacia los elementos de manera uniforme */
+}
+
+footer{
+    padding-top: 5%; /* Espacio en la parte superior del pie de página */
+    padding-bottom: 5%; /* Espacio en la parte inferior del pie de página */
+    grid-template-rows: auto 1fr auto; /* Divide el pie de página en filas (pero falta display: grid) */
+    background-color: black; /* Fondo negro */
+    color: rgb(175, 175, 175); /* Texto gris claro */
+}
+
+footer > a > p {
+    color: rgb(175, 175, 175); /* Color gris claro */
+    font-size: 18px; /* Tamaño de fuente del texto del enlace */
+}
+
+footer > a > img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    transition: transform 0.2s ease; /* Suaviza la transición */
+}
+
+footer .instagram{
+    padding-right: 7px; /* Espacio a la derecha del icono de Instagram */
+    align-items: center; /* Centra el contenido verticalmente */
+    display: inline-flex; /* Coloca los elementos en línea */
+}
+
+footer .facebook{
+    padding-top: 7px; /* Espacio en la parte superior del icono de Facebook */
+    align-items: center; /* Centra el contenido verticalmente */
+    display:inline-flex; /* Coloca los elementos en línea */
+}
+
+footer .youtube{
+    vertical-align:top; /* Alinea el icono de YouTube en la parte superior */
+    display: inline; /* Coloca el elemento en línea */
+}
+
+.boton {
+    text-align: center; /* Centra el contenido del botón */
+}
+
+.redes {
+    justify-content: center; /* Centra horizontalmente los iconos */
+    align-items: center; /* Centra verticalmente los iconos */
+    text-align: center; /* Centra el texto dentro de la sección de redes */
+}

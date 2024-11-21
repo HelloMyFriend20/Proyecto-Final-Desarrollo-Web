@@ -1,0 +1,122 @@
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto; /* Centra el contenido de los elementos de forma predeterminada */
+    width: auto; /* Permite que el ancho de los elementos se ajuste automáticamente */
+}
+
+
+.header {
+    width: 100%; /* Ocupa todo el ancho disponible de la pantalla */
+    padding-top: 15%; /* Espacio en la parte superior */
+    padding-bottom: 15%; /* Espacio en la parte inferior */
+    text-align: center; /* Centra el contenido de texto */
+    background-image: url(https://www.nestleprofessional-latam.com/sites/default/files/2022-10/Sobre%20nosotros%20banner_0.jpg); /* Imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center 30%; /* Centra la imagen con ajuste vertical */
+    display: flex; /* Organiza los elementos en una fila flexible */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+
+.header > h1 {
+    font-size: 5vw; /* Ajusta el tamaño de fuente al ancho de la pantalla */
+    font-size: 10vh; /* Ajusta el tamaño de fuente a la altura de la pantalla */
+    max-width: 90%; /* Limita el ancho del título al 90% del contenedor */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente para mejorar la legibilidad */
+    color: rgb(207, 206, 206); /* Texto en color gris claro */
+    padding: 1%; /* Espacio interno para el título */
+    border-radius: 20px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding dentro del tamaño total */
+}
+
+
+.opciones {
+    display: flex; /* Organiza los elementos en una fila flexible */
+    justify-content: space-around; /* Espacia los elementos de manera uniforme */
+    flex-wrap: wrap; /* Permite que los elementos se muevan a una nueva línea si es necesario */
+    background-color: black; /* Fondo negro */
+    color: rgb(175, 175, 175); /* Texto gris claro */
+    padding: 2%; /* Espacio alrededor de las opciones */
+    text-align: center; /* Centra el texto dentro de cada opción */
+}
+
+
+.opcion1 > a > img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen al pasar el ratón */
+    transition: transform 0.3s ease; /* Suaviza la transición de escalado */
+}
+
+.general {
+    padding-left: 10%; /* Espacio a la izquierda */
+    padding-right: 10%; /* Espacio a la derecha */
+    padding-top: 4%; /* Espacio en la parte superior */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+}
+
+.nosotros {
+    border-radius: 5%; /* Bordes redondeados */
+    padding: 2%; /* Espacio alrededor de la sección */
+    display: flex; /* Organiza los elementos en una fila flexible */
+    align-items: center; /* Centra verticalmente los elementos */
+    text-align: justify; /* Alinea el texto en ambos lados */
+}
+
+
+.nosotros > p {
+    font-size: 20px; /* Tamaño de fuente mediano */
+}
+
+.nosotros > img {
+    padding-left: 10%; /* Espacio a la izquierda de la imagen */
+}
+
+footer{
+    padding-top: 5%; /* Espacio en la parte superior del pie de página */
+    padding-bottom: 5%; /* Espacio en la parte inferior del pie de página */
+    grid-template-rows: auto 1fr auto; /* Divide el pie de página en filas (requiere display: grid) */
+    background-color: black; /* Fondo negro */
+    color: rgb(175, 175, 175); /* Texto gris claro */
+}
+
+footer > a > p {
+    color: rgb(175, 175, 175); /* Color gris claro */
+    font-size: 18px; /* Tamaño de fuente del texto del enlace */
+}
+
+footer > a > img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del ícono */
+    transition: transform 0.2s ease; /* Suaviza la transición */
+}
+
+footer .instagram{
+    padding-right: 7px; /* Espacio a la derecha del ícono de Instagram */
+    align-items: center; /* Centra el contenido verticalmente */
+    display: inline-flex; /* Coloca los elementos en línea */
+}
+
+footer .facebook{
+    padding-top: 7px; /* Espacio en la parte superior del ícono de Facebook */
+    align-items: center; /* Centra el contenido verticalmente */
+    display: inline-flex; /* Coloca los elementos en línea */
+}
+
+footer .youtube{
+    vertical-align: top; /* Alinea el ícono de YouTube en la parte superior */
+    display: inline; /* Coloca el elemento en línea */
+}
+
+
+.boton {
+    text-align: center; /* Centra el contenido del botón */
+}
+
+.redes {
+    justify-content: center; /* Centra horizontalmente los íconos */
+    align-items: center; /* Centra verticalmente los íconos */
+    text-align: center; /* Centra el texto dentro de la sección de redes */
+}
+
+
